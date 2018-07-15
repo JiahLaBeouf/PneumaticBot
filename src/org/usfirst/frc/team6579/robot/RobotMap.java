@@ -23,4 +23,29 @@ public class RobotMap {
 	// number and the module. For example you with a rangefinder:
 	// public static int rangefinderPort = 1;
 	// public static int rangefinderModule = 1;
+
+
+    //Drivetrain
+
+    /**
+     * The left side of the drivetrain (front being the opening)
+     * At the moment these are both Victor SP controllers
+     */
+    public static int leftDTfront = 0;
+    public static int leftDTback = 1;
+
+    /**
+     * The right side of the drivetrain
+     * The front MC is a Spark, the back is a VictorSP
+     */
+    public static int rightDTfront = 8; //spark controller at the moment
+    public static int rightDTback = 9;
+
+
+
+
+
+
+
+
 }
